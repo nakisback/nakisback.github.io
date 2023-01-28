@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Search-->
+        <!-- in terminal type...     http-server-->
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav>
+
+            <!--<ul class="navbar-nav ml-auto">-->
+            <ul>
+                <li class="nav-item"><a href="index.html">Google Search</a></li>
+
+
+            </ul>
+
+
+        </nav>
+
+        <div class="advanced-container">
+            <div class="appbar">
+                <label>Advanced Search</label>
+            </div>
+
+
+            <div class="form-group">
+                <label style="font-size: 25px">Find pages with...</label>
+                <form action="https://www.google.com/search">
+                    <div class="form-group row" style="border: 3px solid black">
+                        <label class="col-sm-2 col-form-label" style="border: 3px solid blue">all these words:</label>
+                        <div class="col-sm-7" style="border: 3px solid green">
+                            <input class="form-control form-control-sm" style="" name="q" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                        <div class="col-sm-7">
+                            <input class="form-control form-control-sm" name="as_epq" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">any of these words:</label>
+                        <div class="col-sm-7">
+                            <input class="form-control form-control-sm" name="as_oq" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">none of these words:</label>
+                        <div class="col-sm-7">
+                            <input class="form-control form-control-sm" name="as_eq" type="text">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="advanced-submitbtn" style="">Advanced Search</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

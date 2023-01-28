@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Search-->
+        <!-- in terminal type...     http-server-->
+        <title>Google Image Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav>
+
+            <!--<ul class="navbar-nav ml-auto">-->
+            <ul>
+                <li class="nav-item"><a href="advanced.html">Google Advanced Search</a></li>
+                <li class="nav-item"><a href="index.html">Google Search</a></li>
+
+            </ul>
+
+
+        </nav>
+
+        <div class="container">
+            <img src="googlelogo.png">
+            <span>images</span>
+            <form action="https://www.google.com/search">
+                <div class="mb-3">
+                    <input class="search" autocomplete="off" type="text" placeholder="Query" name="q">
+                    <input type="hidden" name="tbm" value="isch"><br>
+                </div>
+                <button class="btn btn-primary" type="submit">Google Search</button>
+            </form>
+        </div>
+    </body>
+</html>

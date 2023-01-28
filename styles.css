@@ -1,0 +1,107 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    /*background-color: #111111;*/
+}
+
+input {
+    background-color: ;
+}
+
+.search {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 75%;
+    height: 35px;
+}
+
+.submitbtn {
+    border-radius: 4px;
+    min-width: 50px;
+
+}
+
+.advanced-submitbtn {
+    border-radius: 4px;
+    min-width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: white;
+    background-color: #4C8EFB;
+}
+
+.nav-item {
+
+    text-align: right;
+    float: right;
+
+    border: 3px solid white;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.advanced-container {
+    margin-left: auto:
+    margin-right: auto;
+    padding: 50px;
+}
+
+.advanced {
+    width: 80%;
+}
+
+
+.appbar {
+    font-size: 30px;
+    color: #D93025;
+
+}
+
+.col-sm-7 {
+    padding: 5px;
+}
+
+.form-control{
+    /*margin-left: 25%;
+    margin-right: 25%;
+
+    width: 50%;*/
+}
+
+.form-group .row {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.form-group {
+    width: 95%;
+}
+
+
