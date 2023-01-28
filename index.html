@@ -5,6 +5,8 @@
         <!-- in terminal type...     http-server-->
         <title>Google Search</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+        
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
@@ -23,14 +25,24 @@
 
         <div class="container">
             <img src="googlelogo.png">
+            
             <form action="https://www.google.com/search">
                 <div class="mb-3">
-                    <input class="search" autocomplete="off" type="text" placeholder="Query" name="q"><br>
+                    <div class="search-bar">
+
+                        <span class=""><img src="search_icon.png" style="width: 24px; height: 26px; margin-left: 20px;"></span>
+                        <input class="search" autocomplete="off" type="text" placeholder="Query" name="q"><br>
+
+                    </div>
+                    
+                    
+
 
                 </div>
-                <button type="submit" class="submitbtn">Google Search</button>
-                <button type="submit" class="submitbtn">I'm Feeling Lucky</button>
+                <button type="submit" class="submitbtn" name="btnK">Google Search</button>
+                <button type="submit" class="submitbtn" name="btnI">I'm Feeling Lucky</button>
             </form>
+
         </div>
     </body>
 </html>
